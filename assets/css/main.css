@@ -1,10 +1,4 @@
-/**
-* Template Name: PhotoFolio
-* Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # Set main reusable colors and fonts using CSS variables
@@ -20,7 +14,7 @@
 /* Colors */
 :root {
   --color-default: #fafafa;
-  --color-primary: #191970;
+  --color-primary: #3030a0;
   --color-secondary: #161718;
 }
 
