@@ -28,13 +28,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: PhotoFolio
-  * Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
-  * Updated: Mar 17 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+
 </head>
 
 <body>
@@ -49,19 +43,20 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html" class="active">Inicio</a></li>
+          <li><a href="index.html" >Inicio</a></li>
           <li><a href="Nosotros.html">Nosotros</a></li>
           <li class="dropdown"><a href="#"><span>Galería</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="galeria.html">Bodas</a></li>
-              <li><a href="galeria.html">Quince</a></li>
-              <li><a href="galeria.html">Retrato</a></li>
-              <li><a href="galeria.html">Producto</a></li>
+              <li><a href="Bodas.html">Bodas</a></li>
+              <li><a href="Quince.html">Quince</a></li>
+              <li><a href="Retrato.html">Retrato</a></li>
+              <li><a href="Producto.html">Producto</a></li>
+              <li><a href="Videos.html">Videos</a></li>
               </li>
             </ul>
           </li>
           <li><a href="servicios.html">Servicios</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="contacto.html"class="active">Contacto</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -83,9 +78,13 @@
     <div class="page-header d-flex align-items-center">
       <div class="container position-relative">
         <div class="row d-flex justify-content-center">
-          <div class="col-lg-6 text-center">
-            <h2>Contact</h2>
-            <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+          <div class="col-lg-8 text-center">
+            <br>
+            <h2>Contáctanos: </h2>
+            <h3>Tu Historia Comienza Aquí</h3>
+            <p>En Izho Estudio Digital, estamos emocionados de escuchar tu historia. Ya sea que desees reservar una sesión, solicitar una cotización personalizada o simplemente compartir tus ideas, estamos aquí para ti. Nuestra pasión es transformar tus momentos en recuerdos inolvidables.
+
+              Completa el formulario de contacto o envíanos un correo electrónico. <br> <br>¡Estamos ansiosos por conocerte y ser parte de tu viaje fotográfico!</p>
 
           </div>
         </div>
@@ -100,30 +99,36 @@
 
           <div class="col-lg-3">
             <div class="info-item d-flex">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <a class="icon-link" href="https://maps.app.goo.gl/XJjuLTwBiAa4Unkq9" target="_blank">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+              </a>
               <div>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <h4>Ubicación:</h4>
+                <p>Balcones de Villa verde - Pereira</p>
               </div>
             </div>
           </div><!-- End Info Item -->
 
           <div class="col-lg-3">
             <div class="info-item d-flex">
-              <i class="bi bi-envelope flex-shrink-0"></i>
+              <a class="icon-link" href="mailto:Izhoestudiodigital@gmail.com" target="_blank">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+              </a>
               <div>
-                <h4>Email:</h4>
-                <p>info@example.com</p>
+                <h4>Correo:</h4>
+                <p><a href="mailto:Izhoestudiodigital@gmail.com" target="_blank">Izhoestudiodigital@gmail.com</a></p>
               </div>
             </div>
           </div><!-- End Info Item -->
 
           <div class="col-lg-3">
             <div class="info-item d-flex">
-              <i class="bi bi-phone flex-shrink-0"></i>
+              <a class="icon-link" href="https://wa.me/573505300712" target="_blank">
+                <i class="bi bi-phone flex-shrink-0"></i>
+              </a>
               <div>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55</p>
+                <h4>Llámanos o Whatsapp:</h4>
+                <p><a href="https://wa.me/573505300712" target="_blank">+57 350 530 0712</a></p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -136,24 +141,24 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="Nombre" class="form-control" id="Nombre" placeholder="Nombre" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <input type="email" class="form-control" name="Correo" id="email" placeholder="Correo" required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="Asunto" id="subject" placeholder="Asunto" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="Mensaje" rows="5" placeholder="Mensaje" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message">Su mensaje ha sido enviado. Gracias!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Enviar</button></div>
             </form>
           </div><!-- End Contact Form -->
 
@@ -168,14 +173,11 @@
   <footer id="footer" class="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>PhotoFolio</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Juan Pablo Jiménez</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        
+        Creado Por <a href="https://izhoestudiodigital.com/" target="_blank"> <strong>Izho Estudio Digital</strong></a>
       </div>
     </div>
   </footer><!-- End Footer -->
